@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center_vertical">
+
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"/>
+    <LinearLayout
+        android:id="@+id/id_linearlayout_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/location" />
+
+        <TextView
+            android:id="@+id/id_textview_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="中国地质大学中国地质大学中国地质大学中国地质大学"
+            android:singleLine="true"
+            android:maxWidth="220dp"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="16dp"
+            android:src="@drawable/navigate_next" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/id_search"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/search" />
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f24747"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

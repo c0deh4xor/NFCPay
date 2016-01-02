@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NFCPay</string>
+
+    <string name="nfcpay">NFC Pay</string>
+</resources>
